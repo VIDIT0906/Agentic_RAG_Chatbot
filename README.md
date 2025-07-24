@@ -1,7 +1,10 @@
 # 🧠 Agentic RAG Chatbot for Multi-Format Document QA using MCP
 
-A lightweight, agent-based Retrieval-Augmented Generation (RAG) chatbot designed to answer user questions from uploaded documents of various formats — powered by **Model Context Protocol (MCP)** and **Streamlit**.
-Supports **PDF, DOCX, PPTX, CSV, TXT, Markdown** files. Built with modular agents and vector search using **ChromaDB**.
+A lightweight, agent-based Retrieval-Augmented Generation (RAG) chatbot designed to answer user questions from uploaded documents of various formats — powered by **Model Context Protocol (MCP)** and **Streamlit**.  
+
+Supports **PDF, DOCX, PPTX, CSV, TXT, Markdown** files.   
+
+Built with modular agents and vector search using **ChromaDB**.
 
 ---
 
