@@ -1,4 +1,4 @@
-# 🧠 Agentic RAG Chatbot for Multi-Format Document QA using MCP
+# Agentic RAG Chatbot for Multi-Format Document QA using MCP
 
 A lightweight, agent-based Retrieval-Augmented Generation (RAG) chatbot designed to answer user questions from uploaded documents of various formats — powered by **Model Context Protocol (MCP)** and **Streamlit**.  
 
@@ -8,18 +8,18 @@ Built with modular agents and vector search using **ChromaDB**.
 
 ---
 
-## 🚀 Features
+## Features
 
-✅ Upload & parse diverse document formats  
-✅ Agent-based design: Ingestion, Retrieval, LLM Response  
-✅ MCP-style structured message passing (in-memory)  
-✅ Uses Open Source LLMs via **Groq**  
-✅ Clean multi-turn Q\&A interface with **Streamlit**  
-✅ Pluggable vector store using **ChromaDB**  
+- Upload & parse diverse document formats  
+- Agent-based design: Ingestion, Retrieval, LLM Response  
+- MCP-style structured message passing (in-memory)  
+- Uses Open Source LLMs via **Groq**  
+- Clean multi-turn Q\&A interface with **Streamlit**  
+- Pluggable vector store using **ChromaDB**  
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Agentic-RAG-Chatbot/
@@ -52,7 +52,7 @@ Agentic-RAG-Chatbot/
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repo
 
@@ -86,7 +86,7 @@ EMBEDDING_MODEL=all-MiniLM-L6-v2
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 ```bash
 streamlit run app.py
@@ -100,7 +100,7 @@ Open the link in your browser and:
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 1. **User Uploads Documents** → Handled by `IngestionAgent`
 2. **IngestionAgent** → Parses content & chunks it
@@ -127,18 +127,18 @@ All communication follows a structured **MCP message protocol** using:
 
 ---
 
-## 📦 Supported File Types
+## Supported File Types
 
-* ✅ PDF
-* ✅ Word (.docx)
-* ✅ PowerPoint (.pptx)
-* ✅ CSV
-* ✅ Plain Text (.txt)
-* ✅ Markdown (.md)
+ - PDF
+ - Word (.docx)
+ - PowerPoint (.pptx)
+ - CSV
+ - Plain Text (.txt)
+ - Markdown (.md)
 
 ---
 
-## 🧪 Sample Questions
+## Sample Questions
 
 After uploading a document, try asking:
 
@@ -149,7 +149,7 @@ After uploading a document, try asking:
 
 ---
 
-## 📸 Demo
+## Demo
 
 Here’s how the Agentic RAG Chatbot looks in action:
 
@@ -157,10 +157,10 @@ Here’s how the Agentic RAG Chatbot looks in action:
   [Watch this video on YouTube](https://youtu.be/633zD8ruyGE)
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
-* 🧠 LangGraph-based agent control
-* 🔁 Pub/Sub or REST-based MCP
-* 🧾 Chat history saving
-* 🔐 User authentication
-* 📊 Metadata-aware chunking
+ - LangGraph-based agent control
+ - Pub/Sub or REST-based MCP
+ - Chat history saving
+ - User authentication
+ - Metadata-aware chunking
