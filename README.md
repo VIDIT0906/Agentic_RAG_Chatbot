@@ -1,4 +1,4 @@
-# Agentic RAG Chatbot for Multi-Format Document QA using MCP
+# Agentic RAG Chatbot for Multi-Format Document using MCP
 
 A lightweight, agent-based Retrieval-Augmented Generation (RAG) chatbot designed to answer user questions from uploaded documents of various formats — powered by **Model Context Protocol (MCP)** and **Streamlit**.  
 
