@@ -7,12 +7,12 @@ Supports **PDF, DOCX, PPTX, CSV, TXT, Markdown** files. Built with modular agent
 
 ## 🚀 Features
 
-✅ Upload & parse diverse document formats
-✅ Agent-based design: Ingestion, Retrieval, LLM Response
-✅ MCP-style structured message passing (in-memory)
-✅ Uses Open Source LLMs via **Groq**
-✅ Clean multi-turn Q\&A interface with **Streamlit**
-✅ Pluggable vector store using **ChromaDB**
+✅ Upload & parse diverse document formats  
+✅ Agent-based design: Ingestion, Retrieval, LLM Response  
+✅ MCP-style structured message passing (in-memory)  
+✅ Uses Open Source LLMs via **Groq**  
+✅ Clean multi-turn Q\&A interface with **Streamlit**  
+✅ Pluggable vector store using **ChromaDB**  
 
 ---
 
@@ -54,8 +54,8 @@ Agentic-RAG-Chatbot/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/Agentic-RAG-Chatbot.git
-cd Agentic-RAG-Chatbot
+git clone https://github.com/yourusername/Agentic-RAG-Chatbot.git  
+cd Agentic_RAG_Chatbot
 ```
 
 ### 2. Create Virtual Environment
@@ -150,8 +150,8 @@ After uploading a document, try asking:
 
 Here’s how the Agentic RAG Chatbot looks in action:
 
-![image](https://github.com/user-attachments/assets/36bf8866-a650-444f-86a9-b5465f7ef1b9)
-
+[![Watch the video](https://img.youtube.com/vi/633zD8ruyGE/maxresdefault.jpg)](https://youtu.be/633zD8ruyGE)
+  [Watch this video on YouTube](https://youtu.be/633zD8ruyGE)
 ---
 
 ## 📌 Future Improvements
@@ -161,10 +161,3 @@ Here’s how the Agentic RAG Chatbot looks in action:
 * 🧾 Chat history saving
 * 🔐 User authentication
 * 📊 Metadata-aware chunking
-
----
-
-## 🙌 Credits
-
-* Built using **Python**, **Streamlit**, **Langchain-style agents**, **ChromaDB**, **Groq**
-* MCP inspired by structured agent protocols
