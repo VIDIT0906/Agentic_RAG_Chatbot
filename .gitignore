@@ -1,0 +1,10 @@
+# Python-generated files
+__pycache__/
+
+# Virtual environments
+.venv
+*.docx
+Coding Round Task.pdf
+
+*.mkv
+*.env
